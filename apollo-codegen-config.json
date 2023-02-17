@@ -1,14 +1,14 @@
 {
-  "schemaName" : "StarWars",
+  "schemaName" : "StarWarsAPI",
   "options" : {
     "cocoapodsCompatibleImportStatements" : true
   },
   "input" : {
     "operationSearchPaths" : [
-      "**/*.graphql"
+      "./*.graphql"
     ],
     "schemaSearchPaths" : [
-      "starwars-schema.json"
+      "./starwars-schema.json"
     ]
   },
   "schemaDownloadConfiguration": {
@@ -19,7 +19,7 @@
                 "POST": {}
             },
             "includeDeprecatedInputValues": false,
-            "outputFormat": "SDL"
+            "outputFormat": "JSON"
         }
     },
     "downloadTimeout": 60,
@@ -28,11 +28,12 @@
   },
   "output" : {
     "testMocks" : {
-      "none" : {
+      "absolute" : {
+        "path": "./GitHubGraphQLTests/MockObjects"
       }
     },
     "schemaTypes" : {
-      "path" : "./StarWars",
+      "path" : "./StarWarsAPI/Generated",
       "moduleType" : {
         "embeddedInTarget" : {
           "name" : "StarWarsAPI"
