@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D841914C59E19B7CFE7D18 /* Pods_GitHubGraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5400FBA01A6D63E97800E5 /* Pods_GitHubGraphQL.framework */; };
+		5D708E0C299E8E81000C9A90 /* StarWarsAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5D708E0B299E8E81000C9A90 /* StarWarsAPI.docc */; };
+		5D708E12299E8E81000C9A90 /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */; };
+		5D708E19299E8E81000C9A90 /* StarWarsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D708E18299E8E81000C9A90 /* StarWarsAPITests.swift */; };
+		5D708E1A299E8E81000C9A90 /* StarWarsAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D708E0A299E8E81000C9A90 /* StarWarsAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D708E1D299E8E81000C9A90 /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */; };
+		5D708E1E299E8E81000C9A90 /* StarWarsAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5D708E27299E8E99000C9A90 /* apollo-codegen-config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D708E26299E8E99000C9A90 /* apollo-codegen-config.json */; };
+		5D708E29299FAFA5000C9A90 /* Query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5D708E28299FAFA4000C9A90 /* Query.graphql */; };
+		5D708E2B299FB0D2000C9A90 /* star-wars-swapi@current.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5D708E2A299FB0D2000C9A90 /* star-wars-swapi@current.graphql */; };
+		5D7E8168299D2AD10081F980 /* GitHubGraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8167299D2AD10081F980 /* GitHubGraphQLApp.swift */; };
+		5D7E816A299D2AD10081F980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8169299D2AD10081F980 /* ContentView.swift */; };
+		5D7E816C299D2AD20081F980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7E816B299D2AD20081F980 /* Assets.xcassets */; };
+		5D7E816F299D2AD20081F980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7E816E299D2AD20081F980 /* Preview Assets.xcassets */; };
+		5D7E8179299D2AD20081F980 /* GitHubGraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8178299D2AD20081F980 /* GitHubGraphQLTests.swift */; };
+		5D7E8183299D2AD20081F980 /* GitHubGraphQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8182299D2AD20081F980 /* GitHubGraphQLUITests.swift */; };
+		5D7E8185299D2AD20081F980 /* GitHubGraphQLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8184299D2AD20081F980 /* GitHubGraphQLUITestsLaunchTests.swift */; };
+		9E0F79C7A31D973A370C8622 /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B317D27A6956689548DCEF /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework */; };
+		E4607354F6F4A19F1F709EDA /* Pods_GitHubGraphQLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66F60B6FEFF013B7288BD /* Pods_GitHubGraphQLTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D708E13299E8E81000C9A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7E815C299D2AD10081F980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D708E07299E8E81000C9A90;
+			remoteInfo = StarWarsAPI;
+		};
+		5D708E15299E8E81000C9A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7E815C299D2AD10081F980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D7E8163299D2AD10081F980;
+			remoteInfo = GitHubGraphQL;
+		};
+		5D708E1B299E8E81000C9A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7E815C299D2AD10081F980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D708E07299E8E81000C9A90;
+			remoteInfo = StarWarsAPI;
+		};
+		5D7E8175299D2AD20081F980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7E815C299D2AD10081F980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D7E8163299D2AD10081F980;
+			remoteInfo = GitHubGraphQL;
+		};
+		5D7E817F299D2AD20081F980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7E815C299D2AD10081F980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D7E8163299D2AD10081F980;
+			remoteInfo = GitHubGraphQL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D708E1F299E8E81000C9A90 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5D708E1E299E8E81000C9A90 /* StarWarsAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		059B32BFFDC44D402B43D67E /* Pods-GitHubGraphQL-GitHubGraphQLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQL-GitHubGraphQLUITests.release.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQL-GitHubGraphQLUITests/Pods-GitHubGraphQL-GitHubGraphQLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		222B6F980F214916631CD282 /* Pods-GitHubGraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQL.debug.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQL/Pods-GitHubGraphQL.debug.xcconfig"; sourceTree = "<group>"; };
+		29608FACC149841F976213B7 /* Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQL-GitHubGraphQLUITests/Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45EBD317BE50204BD4628437 /* Pods-GitHubGraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQL.release.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQL/Pods-GitHubGraphQL.release.xcconfig"; sourceTree = "<group>"; };
+		5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D708E0A299E8E81000C9A90 /* StarWarsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsAPI.h; sourceTree = "<group>"; };
+		5D708E0B299E8E81000C9A90 /* StarWarsAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = StarWarsAPI.docc; sourceTree = "<group>"; };
+		5D708E11299E8E81000C9A90 /* StarWarsAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D708E18299E8E81000C9A90 /* StarWarsAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsAPITests.swift; sourceTree = "<group>"; };
+		5D708E26299E8E99000C9A90 /* apollo-codegen-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "apollo-codegen-config.json"; sourceTree = "<group>"; };
+		5D708E28299FAFA4000C9A90 /* Query.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.graphql; sourceTree = "<group>"; };
+		5D708E2A299FB0D2000C9A90 /* star-wars-swapi@current.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "star-wars-swapi@current.graphql"; sourceTree = "<group>"; };
+		5D7E8164299D2AD10081F980 /* GitHubGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7E8167299D2AD10081F980 /* GitHubGraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubGraphQLApp.swift; sourceTree = "<group>"; };
+		5D7E8169299D2AD10081F980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D7E816B299D2AD20081F980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D7E816E299D2AD20081F980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D7E8174299D2AD20081F980 /* GitHubGraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubGraphQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7E8178299D2AD20081F980 /* GitHubGraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubGraphQLTests.swift; sourceTree = "<group>"; };
+		5D7E817E299D2AD20081F980 /* GitHubGraphQLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubGraphQLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7E8182299D2AD20081F980 /* GitHubGraphQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubGraphQLUITests.swift; sourceTree = "<group>"; };
+		5D7E8184299D2AD20081F980 /* GitHubGraphQLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubGraphQLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69B317D27A6956689548DCEF /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubGraphQL_GitHubGraphQLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D66F60B6FEFF013B7288BD /* Pods_GitHubGraphQLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubGraphQLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5400FBA01A6D63E97800E5 /* Pods_GitHubGraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubGraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB0D8DF2297ED08927D9762 /* Pods-GitHubGraphQLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQLTests.debug.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQLTests/Pods-GitHubGraphQLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F65909E4C58D75857EA7F7C0 /* Pods-GitHubGraphQLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQLTests.release.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQLTests/Pods-GitHubGraphQLTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D708E05299E8E81000C9A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D708E0E299E8E81000C9A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D708E12299E8E81000C9A90 /* StarWarsAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E8161299D2AD10081F980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D708E1D299E8E81000C9A90 /* StarWarsAPI.framework in Frameworks */,
+				08D841914C59E19B7CFE7D18 /* Pods_GitHubGraphQL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E8171299D2AD20081F980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4607354F6F4A19F1F709EDA /* Pods_GitHubGraphQLTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E817B299D2AD20081F980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0F79C7A31D973A370C8622 /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4341BBA8E846C723B6934F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5400FBA01A6D63E97800E5 /* Pods_GitHubGraphQL.framework */,
+				69B317D27A6956689548DCEF /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework */,
+				70D66F60B6FEFF013B7288BD /* Pods_GitHubGraphQLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D708E09299E8E81000C9A90 /* StarWarsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5D708E0A299E8E81000C9A90 /* StarWarsAPI.h */,
+				5D708E0B299E8E81000C9A90 /* StarWarsAPI.docc */,
+			);
+			path = StarWarsAPI;
+			sourceTree = "<group>";
+		};
+		5D708E17299E8E81000C9A90 /* StarWarsAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D708E18299E8E81000C9A90 /* StarWarsAPITests.swift */,
+			);
+			path = StarWarsAPITests;
+			sourceTree = "<group>";
+		};
+		5D7E815B299D2AD10081F980 = {
+			isa = PBXGroup;
+			children = (
+				5D708E2A299FB0D2000C9A90 /* star-wars-swapi@current.graphql */,
+				5D708E28299FAFA4000C9A90 /* Query.graphql */,
+				5D708E26299E8E99000C9A90 /* apollo-codegen-config.json */,
+				5D7E8166299D2AD10081F980 /* GitHubGraphQL */,
+				5D7E8177299D2AD20081F980 /* GitHubGraphQLTests */,
+				5D7E8181299D2AD20081F980 /* GitHubGraphQLUITests */,
+				5D708E09299E8E81000C9A90 /* StarWarsAPI */,
+				5D708E17299E8E81000C9A90 /* StarWarsAPITests */,
+				5D7E8165299D2AD10081F980 /* Products */,
+				6667A40EF70372E3E460529F /* Pods */,
+				4341BBA8E846C723B6934F7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D7E8165299D2AD10081F980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D7E8164299D2AD10081F980 /* GitHubGraphQL.app */,
+				5D7E8174299D2AD20081F980 /* GitHubGraphQLTests.xctest */,
+				5D7E817E299D2AD20081F980 /* GitHubGraphQLUITests.xctest */,
+				5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */,
+				5D708E11299E8E81000C9A90 /* StarWarsAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D7E8166299D2AD10081F980 /* GitHubGraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				5D7E8167299D2AD10081F980 /* GitHubGraphQLApp.swift */,
+				5D7E8169299D2AD10081F980 /* ContentView.swift */,
+				5D7E816B299D2AD20081F980 /* Assets.xcassets */,
+				5D7E816D299D2AD20081F980 /* Preview Content */,
+			);
+			path = GitHubGraphQL;
+			sourceTree = "<group>";
+		};
+		5D7E816D299D2AD20081F980 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D7E816E299D2AD20081F980 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D7E8177299D2AD20081F980 /* GitHubGraphQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D7E8178299D2AD20081F980 /* GitHubGraphQLTests.swift */,
+			);
+			path = GitHubGraphQLTests;
+			sourceTree = "<group>";
+		};
+		5D7E8181299D2AD20081F980 /* GitHubGraphQLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D7E8182299D2AD20081F980 /* GitHubGraphQLUITests.swift */,
+				5D7E8184299D2AD20081F980 /* GitHubGraphQLUITestsLaunchTests.swift */,
+			);
+			path = GitHubGraphQLUITests;
+			sourceTree = "<group>";
+		};
+		6667A40EF70372E3E460529F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				222B6F980F214916631CD282 /* Pods-GitHubGraphQL.debug.xcconfig */,
+				45EBD317BE50204BD4628437 /* Pods-GitHubGraphQL.release.xcconfig */,
+				29608FACC149841F976213B7 /* Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig */,
+				059B32BFFDC44D402B43D67E /* Pods-GitHubGraphQL-GitHubGraphQLUITests.release.xcconfig */,
+				BAB0D8DF2297ED08927D9762 /* Pods-GitHubGraphQLTests.debug.xcconfig */,
+				F65909E4C58D75857EA7F7C0 /* Pods-GitHubGraphQLTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D708E03299E8E81000C9A90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D708E1A299E8E81000C9A90 /* StarWarsAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D708E07299E8E81000C9A90 /* StarWarsAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D708E24299E8E81000C9A90 /* Build configuration list for PBXNativeTarget "StarWarsAPI" */;
+			buildPhases = (
+				5D708E03299E8E81000C9A90 /* Headers */,
+				5D708E04299E8E81000C9A90 /* Sources */,
+				5D708E05299E8E81000C9A90 /* Frameworks */,
+				5D708E06299E8E81000C9A90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWarsAPI;
+			productName = StarWarsAPI;
+			productReference = 5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D708E10299E8E81000C9A90 /* StarWarsAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D708E25299E8E81000C9A90 /* Build configuration list for PBXNativeTarget "StarWarsAPITests" */;
+			buildPhases = (
+				5D708E0D299E8E81000C9A90 /* Sources */,
+				5D708E0E299E8E81000C9A90 /* Frameworks */,
+				5D708E0F299E8E81000C9A90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D708E14299E8E81000C9A90 /* PBXTargetDependency */,
+				5D708E16299E8E81000C9A90 /* PBXTargetDependency */,
+			);
+			name = StarWarsAPITests;
+			productName = StarWarsAPITests;
+			productReference = 5D708E11299E8E81000C9A90 /* StarWarsAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D7E8163299D2AD10081F980 /* GitHubGraphQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7E8188299D2AD20081F980 /* Build configuration list for PBXNativeTarget "GitHubGraphQL" */;
+			buildPhases = (
+				344562D3CC79C24ECF0194F2 /* [CP] Check Pods Manifest.lock */,
+				5D7E8160299D2AD10081F980 /* Sources */,
+				5D7E8161299D2AD10081F980 /* Frameworks */,
+				5D7E8162299D2AD10081F980 /* Resources */,
+				727FFD542F107F351D8177BB /* [CP] Embed Pods Frameworks */,
+				5D708E1F299E8E81000C9A90 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D708E1C299E8E81000C9A90 /* PBXTargetDependency */,
+			);
+			name = GitHubGraphQL;
+			productName = GitHubGraphQL;
+			productReference = 5D7E8164299D2AD10081F980 /* GitHubGraphQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D7E8173299D2AD20081F980 /* GitHubGraphQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7E818B299D2AD20081F980 /* Build configuration list for PBXNativeTarget "GitHubGraphQLTests" */;
+			buildPhases = (
+				9FF8581F2C9E58FF179008C5 /* [CP] Check Pods Manifest.lock */,
+				5D7E8170299D2AD20081F980 /* Sources */,
+				5D7E8171299D2AD20081F980 /* Frameworks */,
+				5D7E8172299D2AD20081F980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7E8176299D2AD20081F980 /* PBXTargetDependency */,
+			);
+			name = GitHubGraphQLTests;
+			productName = GitHubGraphQLTests;
+			productReference = 5D7E8174299D2AD20081F980 /* GitHubGraphQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D7E817D299D2AD20081F980 /* GitHubGraphQLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7E818E299D2AD20081F980 /* Build configuration list for PBXNativeTarget "GitHubGraphQLUITests" */;
+			buildPhases = (
+				13B4CD042BD16EB19A76A7F1 /* [CP] Check Pods Manifest.lock */,
+				5D7E817A299D2AD20081F980 /* Sources */,
+				5D7E817B299D2AD20081F980 /* Frameworks */,
+				5D7E817C299D2AD20081F980 /* Resources */,
+				B61EE8968723BAE0E4300E99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7E8180299D2AD20081F980 /* PBXTargetDependency */,
+			);
+			name = GitHubGraphQLUITests;
+			productName = GitHubGraphQLUITests;
+			productReference = 5D7E817E299D2AD20081F980 /* GitHubGraphQLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D7E815C299D2AD10081F980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5D708E07299E8E81000C9A90 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					5D708E10299E8E81000C9A90 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5D7E8163299D2AD10081F980;
+					};
+					5D7E8163299D2AD10081F980 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					5D7E8173299D2AD20081F980 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5D7E8163299D2AD10081F980;
+					};
+					5D7E817D299D2AD20081F980 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5D7E8163299D2AD10081F980;
+					};
+				};
+			};
+			buildConfigurationList = 5D7E815F299D2AD10081F980 /* Build configuration list for PBXProject "GitHubGraphQL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D7E815B299D2AD10081F980;
+			productRefGroup = 5D7E8165299D2AD10081F980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D7E8163299D2AD10081F980 /* GitHubGraphQL */,
+				5D7E8173299D2AD20081F980 /* GitHubGraphQLTests */,
+				5D7E817D299D2AD20081F980 /* GitHubGraphQLUITests */,
+				5D708E07299E8E81000C9A90 /* StarWarsAPI */,
+				5D708E10299E8E81000C9A90 /* StarWarsAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D708E06299E8E81000C9A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D708E0F299E8E81000C9A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E8162299D2AD10081F980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D708E29299FAFA5000C9A90 /* Query.graphql in Resources */,
+				5D708E2B299FB0D2000C9A90 /* star-wars-swapi@current.graphql in Resources */,
+				5D708E27299E8E99000C9A90 /* apollo-codegen-config.json in Resources */,
+				5D7E816F299D2AD20081F980 /* Preview Assets.xcassets in Resources */,
+				5D7E816C299D2AD20081F980 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E8172299D2AD20081F980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E817C299D2AD20081F980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13B4CD042BD16EB19A76A7F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHubGraphQL-GitHubGraphQLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		344562D3CC79C24ECF0194F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHubGraphQL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727FFD542F107F351D8177BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubGraphQL/Pods-GitHubGraphQL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubGraphQL/Pods-GitHubGraphQL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitHubGraphQL/Pods-GitHubGraphQL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF8581F2C9E58FF179008C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitHubGraphQLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61EE8968723BAE0E4300E99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubGraphQL-GitHubGraphQLUITests/Pods-GitHubGraphQL-GitHubGraphQLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitHubGraphQL-GitHubGraphQLUITests/Pods-GitHubGraphQL-GitHubGraphQLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitHubGraphQL-GitHubGraphQLUITests/Pods-GitHubGraphQL-GitHubGraphQLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D708E04299E8E81000C9A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D708E0C299E8E81000C9A90 /* StarWarsAPI.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D708E0D299E8E81000C9A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D708E19299E8E81000C9A90 /* StarWarsAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E8160299D2AD10081F980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7E816A299D2AD10081F980 /* ContentView.swift in Sources */,
+				5D7E8168299D2AD10081F980 /* GitHubGraphQLApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E8170299D2AD20081F980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7E8179299D2AD20081F980 /* GitHubGraphQLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7E817A299D2AD20081F980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7E8183299D2AD20081F980 /* GitHubGraphQLUITests.swift in Sources */,
+				5D7E8185299D2AD20081F980 /* GitHubGraphQLUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D708E14299E8E81000C9A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D708E07299E8E81000C9A90 /* StarWarsAPI */;
+			targetProxy = 5D708E13299E8E81000C9A90 /* PBXContainerItemProxy */;
+		};
+		5D708E16299E8E81000C9A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D7E8163299D2AD10081F980 /* GitHubGraphQL */;
+			targetProxy = 5D708E15299E8E81000C9A90 /* PBXContainerItemProxy */;
+		};
+		5D708E1C299E8E81000C9A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D708E07299E8E81000C9A90 /* StarWarsAPI */;
+			targetProxy = 5D708E1B299E8E81000C9A90 /* PBXContainerItemProxy */;
+		};
+		5D7E8176299D2AD20081F980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D7E8163299D2AD10081F980 /* GitHubGraphQL */;
+			targetProxy = 5D7E8175299D2AD20081F980 /* PBXContainerItemProxy */;
+		};
+		5D7E8180299D2AD20081F980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D7E8163299D2AD10081F980 /* GitHubGraphQL */;
+			targetProxy = 5D7E817F299D2AD20081F980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D708E20299E8E81000C9A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.StarWarsAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D708E21299E8E81000C9A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.StarWarsAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D708E22299E8E81000C9A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.StarWarsAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubGraphQL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubGraphQL";
+			};
+			name = Debug;
+		};
+		5D708E23299E8E81000C9A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.StarWarsAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubGraphQL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubGraphQL";
+			};
+			name = Release;
+		};
+		5D7E8186299D2AD20081F980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D7E8187299D2AD20081F980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D7E8189299D2AD20081F980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222B6F980F214916631CD282 /* Pods-GitHubGraphQL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GitHubGraphQL/Preview Content\"";
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.GitHubGraphQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D7E818A299D2AD20081F980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EBD317BE50204BD4628437 /* Pods-GitHubGraphQL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GitHubGraphQL/Preview Content\"";
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.GitHubGraphQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D7E818C299D2AD20081F980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB0D8DF2297ED08927D9762 /* Pods-GitHubGraphQLTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.GitHubGraphQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubGraphQL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubGraphQL";
+			};
+			name = Debug;
+		};
+		5D7E818D299D2AD20081F980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65909E4C58D75857EA7F7C0 /* Pods-GitHubGraphQLTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.GitHubGraphQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubGraphQL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubGraphQL";
+			};
+			name = Release;
+		};
+		5D7E818F299D2AD20081F980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29608FACC149841F976213B7 /* Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.GitHubGraphQLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GitHubGraphQL;
+			};
+			name = Debug;
+		};
+		5D7E8190299D2AD20081F980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059B32BFFDC44D402B43D67E /* Pods-GitHubGraphQL-GitHubGraphQLUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556LK3AR37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesing.GitHubGraphQLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GitHubGraphQL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D708E24299E8E81000C9A90 /* Build configuration list for PBXNativeTarget "StarWarsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D708E20299E8E81000C9A90 /* Debug */,
+				5D708E21299E8E81000C9A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D708E25299E8E81000C9A90 /* Build configuration list for PBXNativeTarget "StarWarsAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D708E22299E8E81000C9A90 /* Debug */,
+				5D708E23299E8E81000C9A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7E815F299D2AD10081F980 /* Build configuration list for PBXProject "GitHubGraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7E8186299D2AD20081F980 /* Debug */,
+				5D7E8187299D2AD20081F980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7E8188299D2AD20081F980 /* Build configuration list for PBXNativeTarget "GitHubGraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7E8189299D2AD20081F980 /* Debug */,
+				5D7E818A299D2AD20081F980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7E818B299D2AD20081F980 /* Build configuration list for PBXNativeTarget "GitHubGraphQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7E818C299D2AD20081F980 /* Debug */,
+				5D7E818D299D2AD20081F980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7E818E299D2AD20081F980 /* Build configuration list for PBXNativeTarget "GitHubGraphQLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7E818F299D2AD20081F980 /* Debug */,
+				5D7E8190299D2AD20081F980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D7E815C299D2AD10081F980 /* Project object */;
+}
