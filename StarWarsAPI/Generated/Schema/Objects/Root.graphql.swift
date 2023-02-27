@@ -3,7 +3,7 @@
 
 import Apollo
 
-public extension StarWarsAPI.Objects {
+public extension Objects {
   static let Root = Object(
     typename: "Root",
     implementedInterfaces: []

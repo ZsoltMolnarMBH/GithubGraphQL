@@ -3,10 +3,10 @@
 
 import Apollo
 
-public extension StarWarsAPI.Objects {
+public extension Objects {
   /// A single film.
   static let Film = Object(
     typename: "Film",
-    implementedInterfaces: [StarWarsAPI.Interfaces.Node.self]
+    implementedInterfaces: [Interfaces.Node.self]
   )
 }

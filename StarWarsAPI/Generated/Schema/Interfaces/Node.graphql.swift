@@ -3,7 +3,7 @@
 
 import Apollo
 
-public extension StarWarsAPI.Interfaces {
+public extension Interfaces {
   /// An object with an ID
   static let Node = Interface(name: "Node")
 }

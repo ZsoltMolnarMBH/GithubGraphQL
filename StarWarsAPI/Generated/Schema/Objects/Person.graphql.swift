@@ -3,10 +3,10 @@
 
 import Apollo
 
-public extension StarWarsAPI.Objects {
+public extension Objects {
   /// An individual person or character within the Star Wars universe.
   static let Person = Object(
     typename: "Person",
-    implementedInterfaces: [StarWarsAPI.Interfaces.Node.self]
+    implementedInterfaces: [Interfaces.Node.self]
   )
 }

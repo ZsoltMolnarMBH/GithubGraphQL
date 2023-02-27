@@ -35,8 +35,7 @@
     "schemaTypes" : {
       "path" : "./StarWarsAPI/Generated",
       "moduleType" : {
-        "embeddedInTarget" : {
-          "name" : "StarWarsAPI"
+        "other" : {
         }
       }
     },

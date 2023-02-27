@@ -22,7 +22,6 @@
 		5D66AC56299FB75E00F04B30 /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC47299FB75E00F04B30 /* SchemaConfiguration.swift */; };
 		5D66AC57299FB75E00F04B30 /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC48299FB75E00F04B30 /* SchemaMetadata.graphql.swift */; };
 		5D66AC58299FB75E00F04B30 /* Node.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC4A299FB75E00F04B30 /* Node.graphql.swift */; };
-		5D66AC59299FB75E00F04B30 /* StarWarsAPI.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC4B299FB75E00F04B30 /* StarWarsAPI.graphql.swift */; };
 		5D708E0C299E8E81000C9A90 /* StarWarsAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5D708E0B299E8E81000C9A90 /* StarWarsAPI.docc */; };
 		5D708E12299E8E81000C9A90 /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */; };
 		5D708E19299E8E81000C9A90 /* StarWarsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D708E18299E8E81000C9A90 /* StarWarsAPITests.swift */; };
@@ -126,7 +125,6 @@
 		5D66AC47299FB75E00F04B30 /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
 		5D66AC48299FB75E00F04B30 /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
 		5D66AC4A299FB75E00F04B30 /* Node.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.graphql.swift; sourceTree = "<group>"; };
-		5D66AC4B299FB75E00F04B30 /* StarWarsAPI.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.graphql.swift; sourceTree = "<group>"; };
 		5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D708E0A299E8E81000C9A90 /* StarWarsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsAPI.h; sourceTree = "<group>"; };
 		5D708E0B299E8E81000C9A90 /* StarWarsAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = StarWarsAPI.docc; sourceTree = "<group>"; };
@@ -227,7 +225,6 @@
 			children = (
 				5D66AC39299FB75E00F04B30 /* Operations */,
 				5D66AC3C299FB75E00F04B30 /* Schema */,
-				5D66AC4B299FB75E00F04B30 /* StarWarsAPI.graphql.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -799,7 +796,6 @@
 				5D66AC55299FB75E00F04B30 /* Film.graphql.swift in Sources */,
 				5D66AC51299FB75E00F04B30 /* Starship.graphql.swift in Sources */,
 				5D708E0C299E8E81000C9A90 /* StarWarsAPI.docc in Sources */,
-				5D66AC59299FB75E00F04B30 /* StarWarsAPI.graphql.swift in Sources */,
 				5D66AC4C299FB75E00F04B30 /* Query.graphql.swift in Sources */,
 				5D66AC56299FB75E00F04B30 /* SchemaConfiguration.swift in Sources */,
 				5D66AC4E299FB75E00F04B30 /* Person.graphql.swift in Sources */,
