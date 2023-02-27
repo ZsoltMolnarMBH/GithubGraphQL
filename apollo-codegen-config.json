@@ -29,7 +29,7 @@
   "output" : {
     "testMocks" : {
       "absolute" : {
-        "path": "./GitHubGraphQLTests/MockObjects"
+        "path": "./StarWarsAPITests/Generated"
       }
     },
     "schemaTypes" : {

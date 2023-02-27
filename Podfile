@@ -8,6 +8,10 @@ target 'StarWarsAPI' do
   pod 'Apollo'
 end
 
+target 'StarWarsAPITests' do
+  pod 'Apollo'
+end
+
 target 'GitHubGraphQL' do
 
   pod 'Apollo'

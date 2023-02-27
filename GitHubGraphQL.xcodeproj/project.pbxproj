@@ -23,16 +23,6 @@
 		5D66AC57299FB75E00F04B30 /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC48299FB75E00F04B30 /* SchemaMetadata.graphql.swift */; };
 		5D66AC58299FB75E00F04B30 /* Node.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC4A299FB75E00F04B30 /* Node.graphql.swift */; };
 		5D66AC59299FB75E00F04B30 /* StarWarsAPI.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC4B299FB75E00F04B30 /* StarWarsAPI.graphql.swift */; };
-		5D66AC6F299FBE7700F04B30 /* FilmSpeciesConnection+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC60299FB7F000F04B30 /* FilmSpeciesConnection+Mock.graphql.swift */; };
-		5D66AC70299FBE7700F04B30 /* Film+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC61299FB7F000F04B30 /* Film+Mock.graphql.swift */; };
-		5D66AC71299FBE7700F04B30 /* Planet+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC5D299FB7F000F04B30 /* Planet+Mock.graphql.swift */; };
-		5D66AC72299FBE7700F04B30 /* Root+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC62299FB7F000F04B30 /* Root+Mock.graphql.swift */; };
-		5D66AC73299FBE7700F04B30 /* Vehicle+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC63299FB7F000F04B30 /* Vehicle+Mock.graphql.swift */; };
-		5D66AC74299FBE7700F04B30 /* FilmsConnection+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC5E299FB7F000F04B30 /* FilmsConnection+Mock.graphql.swift */; };
-		5D66AC75299FBE7700F04B30 /* Species+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC5B299FB7F000F04B30 /* Species+Mock.graphql.swift */; };
-		5D66AC76299FBE7700F04B30 /* Person+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC64299FB7F000F04B30 /* Person+Mock.graphql.swift */; };
-		5D66AC77299FBE7700F04B30 /* MockObject+Interfaces.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC5F299FB7F000F04B30 /* MockObject+Interfaces.graphql.swift */; };
-		5D66AC78299FBE7700F04B30 /* Starship+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66AC5C299FB7F000F04B30 /* Starship+Mock.graphql.swift */; };
 		5D708E0C299E8E81000C9A90 /* StarWarsAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5D708E0B299E8E81000C9A90 /* StarWarsAPI.docc */; };
 		5D708E12299E8E81000C9A90 /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */; };
 		5D708E19299E8E81000C9A90 /* StarWarsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D708E18299E8E81000C9A90 /* StarWarsAPITests.swift */; };
@@ -41,6 +31,16 @@
 		5D708E1E299E8E81000C9A90 /* StarWarsAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D708E27299E8E99000C9A90 /* apollo-codegen-config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D708E26299E8E99000C9A90 /* apollo-codegen-config.json */; };
 		5D708E29299FAFA5000C9A90 /* Query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5D708E28299FAFA4000C9A90 /* Query.graphql */; };
+		5D77AB3429AD521C0089C0CC /* Species+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB2A29AD521C0089C0CC /* Species+Mock.graphql.swift */; };
+		5D77AB3529AD521C0089C0CC /* Starship+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB2B29AD521C0089C0CC /* Starship+Mock.graphql.swift */; };
+		5D77AB3629AD521C0089C0CC /* Planet+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB2C29AD521C0089C0CC /* Planet+Mock.graphql.swift */; };
+		5D77AB3729AD521C0089C0CC /* FilmsConnection+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB2D29AD521C0089C0CC /* FilmsConnection+Mock.graphql.swift */; };
+		5D77AB3829AD521C0089C0CC /* MockObject+Interfaces.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB2E29AD521C0089C0CC /* MockObject+Interfaces.graphql.swift */; };
+		5D77AB3929AD521C0089C0CC /* FilmSpeciesConnection+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB2F29AD521C0089C0CC /* FilmSpeciesConnection+Mock.graphql.swift */; };
+		5D77AB3A29AD521C0089C0CC /* Film+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB3029AD521C0089C0CC /* Film+Mock.graphql.swift */; };
+		5D77AB3B29AD521C0089C0CC /* Root+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB3129AD521C0089C0CC /* Root+Mock.graphql.swift */; };
+		5D77AB3C29AD521C0089C0CC /* Vehicle+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB3229AD521C0089C0CC /* Vehicle+Mock.graphql.swift */; };
+		5D77AB3D29AD521C0089C0CC /* Person+Mock.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77AB3329AD521C0089C0CC /* Person+Mock.graphql.swift */; };
 		5D7E8168299D2AD10081F980 /* GitHubGraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8167299D2AD10081F980 /* GitHubGraphQLApp.swift */; };
 		5D7E816A299D2AD10081F980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8169299D2AD10081F980 /* ContentView.swift */; };
 		5D7E816C299D2AD20081F980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7E816B299D2AD20081F980 /* Assets.xcassets */; };
@@ -48,6 +48,7 @@
 		5D7E8179299D2AD20081F980 /* GitHubGraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8178299D2AD20081F980 /* GitHubGraphQLTests.swift */; };
 		5D7E8183299D2AD20081F980 /* GitHubGraphQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8182299D2AD20081F980 /* GitHubGraphQLUITests.swift */; };
 		5D7E8185299D2AD20081F980 /* GitHubGraphQLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E8184299D2AD20081F980 /* GitHubGraphQLUITestsLaunchTests.swift */; };
+		62271EAEFF16CA0E36F76369 /* Pods_StarWarsAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3398B9D02644E76BC7C1D733 /* Pods_StarWarsAPITests.framework */; };
 		9E0F79C7A31D973A370C8622 /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B317D27A6956689548DCEF /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework */; };
 		E4607354F6F4A19F1F709EDA /* Pods_GitHubGraphQLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66F60B6FEFF013B7288BD /* Pods_GitHubGraphQLTests.framework */; };
 /* End PBXBuildFile section */
@@ -109,7 +110,9 @@
 		0705BCCA403D890DF476F501 /* Pods-StarWarsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAPI.debug.xcconfig"; path = "Target Support Files/Pods-StarWarsAPI/Pods-StarWarsAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		222B6F980F214916631CD282 /* Pods-GitHubGraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQL.debug.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQL/Pods-GitHubGraphQL.debug.xcconfig"; sourceTree = "<group>"; };
 		29608FACC149841F976213B7 /* Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQL-GitHubGraphQLUITests/Pods-GitHubGraphQL-GitHubGraphQLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3398B9D02644E76BC7C1D733 /* Pods_StarWarsAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EBD317BE50204BD4628437 /* Pods-GitHubGraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQL.release.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQL/Pods-GitHubGraphQL.release.xcconfig"; sourceTree = "<group>"; };
+		4D316690C59A774BE1004C30 /* Pods-StarWarsAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAPITests.release.xcconfig"; path = "Target Support Files/Pods-StarWarsAPITests/Pods-StarWarsAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		5D66AC3B299FB75E00F04B30 /* Query.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.graphql.swift; sourceTree = "<group>"; };
 		5D66AC3E299FB75E00F04B30 /* Species.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Species.graphql.swift; sourceTree = "<group>"; };
 		5D66AC3F299FB75E00F04B30 /* Person.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.graphql.swift; sourceTree = "<group>"; };
@@ -124,16 +127,6 @@
 		5D66AC48299FB75E00F04B30 /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
 		5D66AC4A299FB75E00F04B30 /* Node.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.graphql.swift; sourceTree = "<group>"; };
 		5D66AC4B299FB75E00F04B30 /* StarWarsAPI.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.graphql.swift; sourceTree = "<group>"; };
-		5D66AC5B299FB7F000F04B30 /* Species+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Species+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC5C299FB7F000F04B30 /* Starship+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Starship+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC5D299FB7F000F04B30 /* Planet+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Planet+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC5E299FB7F000F04B30 /* FilmsConnection+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilmsConnection+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC5F299FB7F000F04B30 /* MockObject+Interfaces.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MockObject+Interfaces.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC60299FB7F000F04B30 /* FilmSpeciesConnection+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilmSpeciesConnection+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC61299FB7F000F04B30 /* Film+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Film+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC62299FB7F000F04B30 /* Root+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Root+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC63299FB7F000F04B30 /* Vehicle+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vehicle+Mock.graphql.swift"; sourceTree = "<group>"; };
-		5D66AC64299FB7F000F04B30 /* Person+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+Mock.graphql.swift"; sourceTree = "<group>"; };
 		5D708E08299E8E81000C9A90 /* StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D708E0A299E8E81000C9A90 /* StarWarsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsAPI.h; sourceTree = "<group>"; };
 		5D708E0B299E8E81000C9A90 /* StarWarsAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = StarWarsAPI.docc; sourceTree = "<group>"; };
@@ -141,6 +134,16 @@
 		5D708E18299E8E81000C9A90 /* StarWarsAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsAPITests.swift; sourceTree = "<group>"; };
 		5D708E26299E8E99000C9A90 /* apollo-codegen-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "apollo-codegen-config.json"; sourceTree = "<group>"; };
 		5D708E28299FAFA4000C9A90 /* Query.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Query.graphql; sourceTree = "<group>"; };
+		5D77AB2A29AD521C0089C0CC /* Species+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Species+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB2B29AD521C0089C0CC /* Starship+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Starship+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB2C29AD521C0089C0CC /* Planet+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Planet+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB2D29AD521C0089C0CC /* FilmsConnection+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilmsConnection+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB2E29AD521C0089C0CC /* MockObject+Interfaces.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MockObject+Interfaces.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB2F29AD521C0089C0CC /* FilmSpeciesConnection+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilmSpeciesConnection+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB3029AD521C0089C0CC /* Film+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Film+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB3129AD521C0089C0CC /* Root+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Root+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB3229AD521C0089C0CC /* Vehicle+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vehicle+Mock.graphql.swift"; sourceTree = "<group>"; };
+		5D77AB3329AD521C0089C0CC /* Person+Mock.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+Mock.graphql.swift"; sourceTree = "<group>"; };
 		5D7E8164299D2AD10081F980 /* GitHubGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7E8167299D2AD10081F980 /* GitHubGraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubGraphQLApp.swift; sourceTree = "<group>"; };
 		5D7E8169299D2AD10081F980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +159,7 @@
 		AD5400FBA01A6D63E97800E5 /* Pods_GitHubGraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubGraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB0D8DF2297ED08927D9762 /* Pods-GitHubGraphQLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQLTests.debug.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQLTests/Pods-GitHubGraphQLTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C22781AF32FCA8F528D64D4F /* Pods-StarWarsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAPI.release.xcconfig"; path = "Target Support Files/Pods-StarWarsAPI/Pods-StarWarsAPI.release.xcconfig"; sourceTree = "<group>"; };
+		D28FCA612E12A86500FCB02C /* Pods-StarWarsAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAPITests.debug.xcconfig"; path = "Target Support Files/Pods-StarWarsAPITests/Pods-StarWarsAPITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEC35C94839F93AD0FC47E1C /* Pods_StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65909E4C58D75857EA7F7C0 /* Pods-GitHubGraphQLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGraphQLTests.release.xcconfig"; path = "Target Support Files/Pods-GitHubGraphQLTests/Pods-GitHubGraphQLTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D708E12299E8E81000C9A90 /* StarWarsAPI.framework in Frameworks */,
+				62271EAEFF16CA0E36F76369 /* Pods_StarWarsAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +217,7 @@
 				69B317D27A6956689548DCEF /* Pods_GitHubGraphQL_GitHubGraphQLUITests.framework */,
 				70D66F60B6FEFF013B7288BD /* Pods_GitHubGraphQLTests.framework */,
 				DEC35C94839F93AD0FC47E1C /* Pods_StarWarsAPI.framework */,
+				3398B9D02644E76BC7C1D733 /* Pods_StarWarsAPITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -277,24 +283,6 @@
 			path = Interfaces;
 			sourceTree = "<group>";
 		};
-		5D66AC5A299FB7F000F04B30 /* MockObjects */ = {
-			isa = PBXGroup;
-			children = (
-				5D66AC5B299FB7F000F04B30 /* Species+Mock.graphql.swift */,
-				5D66AC5C299FB7F000F04B30 /* Starship+Mock.graphql.swift */,
-				5D66AC5D299FB7F000F04B30 /* Planet+Mock.graphql.swift */,
-				5D66AC5E299FB7F000F04B30 /* FilmsConnection+Mock.graphql.swift */,
-				5D66AC5F299FB7F000F04B30 /* MockObject+Interfaces.graphql.swift */,
-				5D66AC60299FB7F000F04B30 /* FilmSpeciesConnection+Mock.graphql.swift */,
-				5D66AC61299FB7F000F04B30 /* Film+Mock.graphql.swift */,
-				5D66AC62299FB7F000F04B30 /* Root+Mock.graphql.swift */,
-				5D66AC63299FB7F000F04B30 /* Vehicle+Mock.graphql.swift */,
-				5D66AC64299FB7F000F04B30 /* Person+Mock.graphql.swift */,
-			);
-			name = MockObjects;
-			path = GitHubGraphQLTests/MockObjects;
-			sourceTree = SOURCE_ROOT;
-		};
 		5D708E09299E8E81000C9A90 /* StarWarsAPI */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,10 +296,27 @@
 		5D708E17299E8E81000C9A90 /* StarWarsAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				5D66AC5A299FB7F000F04B30 /* MockObjects */,
+				5D77AB2929AD521C0089C0CC /* Generated */,
 				5D708E18299E8E81000C9A90 /* StarWarsAPITests.swift */,
 			);
 			path = StarWarsAPITests;
+			sourceTree = "<group>";
+		};
+		5D77AB2929AD521C0089C0CC /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5D77AB2A29AD521C0089C0CC /* Species+Mock.graphql.swift */,
+				5D77AB2B29AD521C0089C0CC /* Starship+Mock.graphql.swift */,
+				5D77AB2C29AD521C0089C0CC /* Planet+Mock.graphql.swift */,
+				5D77AB2D29AD521C0089C0CC /* FilmsConnection+Mock.graphql.swift */,
+				5D77AB2E29AD521C0089C0CC /* MockObject+Interfaces.graphql.swift */,
+				5D77AB2F29AD521C0089C0CC /* FilmSpeciesConnection+Mock.graphql.swift */,
+				5D77AB3029AD521C0089C0CC /* Film+Mock.graphql.swift */,
+				5D77AB3129AD521C0089C0CC /* Root+Mock.graphql.swift */,
+				5D77AB3229AD521C0089C0CC /* Vehicle+Mock.graphql.swift */,
+				5D77AB3329AD521C0089C0CC /* Person+Mock.graphql.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 		5D7E815B299D2AD10081F980 = {
@@ -389,6 +394,8 @@
 				F65909E4C58D75857EA7F7C0 /* Pods-GitHubGraphQLTests.release.xcconfig */,
 				0705BCCA403D890DF476F501 /* Pods-StarWarsAPI.debug.xcconfig */,
 				C22781AF32FCA8F528D64D4F /* Pods-StarWarsAPI.release.xcconfig */,
+				D28FCA612E12A86500FCB02C /* Pods-StarWarsAPITests.debug.xcconfig */,
+				4D316690C59A774BE1004C30 /* Pods-StarWarsAPITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -430,9 +437,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D708E25299E8E81000C9A90 /* Build configuration list for PBXNativeTarget "StarWarsAPITests" */;
 			buildPhases = (
+				E95AD3FE5226099C915FE189 /* [CP] Check Pods Manifest.lock */,
 				5D708E0D299E8E81000C9A90 /* Sources */,
 				5D708E0E299E8E81000C9A90 /* Frameworks */,
 				5D708E0F299E8E81000C9A90 /* Resources */,
+				E9BA277A5F5B1BB758A0D254 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -740,6 +749,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitHubGraphQL-GitHubGraphQLUITests/Pods-GitHubGraphQL-GitHubGraphQLUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E95AD3FE5226099C915FE189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWarsAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BA277A5F5B1BB758A0D254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarWarsAPITests/Pods-StarWarsAPITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarWarsAPITests/Pods-StarWarsAPITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarWarsAPITests/Pods-StarWarsAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -769,7 +817,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D77AB3D29AD521C0089C0CC /* Person+Mock.graphql.swift in Sources */,
+				5D77AB3929AD521C0089C0CC /* FilmSpeciesConnection+Mock.graphql.swift in Sources */,
+				5D77AB3C29AD521C0089C0CC /* Vehicle+Mock.graphql.swift in Sources */,
+				5D77AB3729AD521C0089C0CC /* FilmsConnection+Mock.graphql.swift in Sources */,
+				5D77AB3829AD521C0089C0CC /* MockObject+Interfaces.graphql.swift in Sources */,
+				5D77AB3B29AD521C0089C0CC /* Root+Mock.graphql.swift in Sources */,
 				5D708E19299E8E81000C9A90 /* StarWarsAPITests.swift in Sources */,
+				5D77AB3A29AD521C0089C0CC /* Film+Mock.graphql.swift in Sources */,
+				5D77AB3429AD521C0089C0CC /* Species+Mock.graphql.swift in Sources */,
+				5D77AB3629AD521C0089C0CC /* Planet+Mock.graphql.swift in Sources */,
+				5D77AB3529AD521C0089C0CC /* Starship+Mock.graphql.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,17 +844,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D66AC70299FBE7700F04B30 /* Film+Mock.graphql.swift in Sources */,
-				5D66AC73299FBE7700F04B30 /* Vehicle+Mock.graphql.swift in Sources */,
 				5D7E8179299D2AD20081F980 /* GitHubGraphQLTests.swift in Sources */,
-				5D66AC77299FBE7700F04B30 /* MockObject+Interfaces.graphql.swift in Sources */,
-				5D66AC75299FBE7700F04B30 /* Species+Mock.graphql.swift in Sources */,
-				5D66AC72299FBE7700F04B30 /* Root+Mock.graphql.swift in Sources */,
-				5D66AC71299FBE7700F04B30 /* Planet+Mock.graphql.swift in Sources */,
-				5D66AC74299FBE7700F04B30 /* FilmsConnection+Mock.graphql.swift in Sources */,
-				5D66AC76299FBE7700F04B30 /* Person+Mock.graphql.swift in Sources */,
-				5D66AC6F299FBE7700F04B30 /* FilmSpeciesConnection+Mock.graphql.swift in Sources */,
-				5D66AC78299FBE7700F04B30 /* Starship+Mock.graphql.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,6 +954,7 @@
 		};
 		5D708E22299E8E81000C9A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28FCA612E12A86500FCB02C /* Pods-StarWarsAPITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -924,6 +973,7 @@
 		};
 		5D708E23299E8E81000C9A90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D316690C59A774BE1004C30 /* Pods-StarWarsAPITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
